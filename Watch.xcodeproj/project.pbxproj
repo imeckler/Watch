@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		431473BD14FAD97C0072C055 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431473BC14FAD97C0072C055 /* CFNetwork.framework */; };
+		4344ACB314F2F48C005AB162 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4344ACB214F2F48C005AB162 /* UIKit.framework */; };
+		4344ACB514F2F48C005AB162 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4344ACB414F2F48C005AB162 /* Foundation.framework */; };
+		4344ACB714F2F48C005AB162 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4344ACB614F2F48C005AB162 /* CoreGraphics.framework */; };
+		4344ACBD14F2F48C005AB162 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4344ACBB14F2F48C005AB162 /* InfoPlist.strings */; };
+		4344ACBF14F2F48C005AB162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4344ACBE14F2F48C005AB162 /* main.m */; };
+		4344ACC314F2F48D005AB162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4344ACC214F2F48D005AB162 /* AppDelegate.m */; };
+		4344ACC614F2F48E005AB162 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4344ACC414F2F48E005AB162 /* MainStoryboard.storyboard */; };
+		4344ACC914F2F48E005AB162 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4344ACC814F2F48E005AB162 /* ViewController.m */; };
+		43820DFE150717AA00F9E727 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 43820DFD150717AA00F9E727 /* Default-Landscape~ipad.png */; };
+		43BF628A14FB17EB00A79ED0 /* icon-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 43BF628914FB17EB00A79ED0 /* icon-01.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		431473BC14FAD97C0072C055 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4344ACAE14F2F48C005AB162 /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4344ACB214F2F48C005AB162 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4344ACB414F2F48C005AB162 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4344ACB614F2F48C005AB162 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4344ACBA14F2F48C005AB162 /* Watch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Watch-Info.plist"; sourceTree = "<group>"; };
+		4344ACBC14F2F48C005AB162 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4344ACBE14F2F48C005AB162 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4344ACC014F2F48C005AB162 /* Watch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Watch-Prefix.pch"; sourceTree = "<group>"; };
+		4344ACC114F2F48D005AB162 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4344ACC214F2F48D005AB162 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4344ACC514F2F48E005AB162 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4344ACC714F2F48E005AB162 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4344ACC814F2F48E005AB162 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43820DFD150717AA00F9E727 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		43BF628914FB17EB00A79ED0 /* icon-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-01.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4344ACAB14F2F48C005AB162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4344ACB314F2F48C005AB162 /* UIKit.framework in Frameworks */,
+				4344ACB514F2F48C005AB162 /* Foundation.framework in Frameworks */,
+				4344ACB714F2F48C005AB162 /* CoreGraphics.framework in Frameworks */,
+				431473BD14FAD97C0072C055 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4344ACA314F2F48B005AB162 = {
+			isa = PBXGroup;
+			children = (
+				43820DFD150717AA00F9E727 /* Default-Landscape~ipad.png */,
+				43BF628914FB17EB00A79ED0 /* icon-01.png */,
+				4344ACB814F2F48C005AB162 /* Watch */,
+				4344ACB114F2F48C005AB162 /* Frameworks */,
+				4344ACAF14F2F48C005AB162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4344ACAF14F2F48C005AB162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4344ACAE14F2F48C005AB162 /* Watch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4344ACB114F2F48C005AB162 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				431473BC14FAD97C0072C055 /* CFNetwork.framework */,
+				4344ACB214F2F48C005AB162 /* UIKit.framework */,
+				4344ACB414F2F48C005AB162 /* Foundation.framework */,
+				4344ACB614F2F48C005AB162 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4344ACB814F2F48C005AB162 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				4344ACC114F2F48D005AB162 /* AppDelegate.h */,
+				4344ACC214F2F48D005AB162 /* AppDelegate.m */,
+				4344ACC414F2F48E005AB162 /* MainStoryboard.storyboard */,
+				4344ACC714F2F48E005AB162 /* ViewController.h */,
+				4344ACC814F2F48E005AB162 /* ViewController.m */,
+				4344ACB914F2F48C005AB162 /* Supporting Files */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		4344ACB914F2F48C005AB162 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4344ACBA14F2F48C005AB162 /* Watch-Info.plist */,
+				4344ACBB14F2F48C005AB162 /* InfoPlist.strings */,
+				4344ACBE14F2F48C005AB162 /* main.m */,
+				4344ACC014F2F48C005AB162 /* Watch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4344ACAD14F2F48C005AB162 /* Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4344ACCC14F2F48E005AB162 /* Build configuration list for PBXNativeTarget "Watch" */;
+			buildPhases = (
+				4344ACAA14F2F48C005AB162 /* Sources */,
+				4344ACAB14F2F48C005AB162 /* Frameworks */,
+				4344ACAC14F2F48C005AB162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watch;
+			productName = Watch;
+			productReference = 4344ACAE14F2F48C005AB162 /* Watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4344ACA514F2F48B005AB162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = None;
+			};
+			buildConfigurationList = 4344ACA814F2F48B005AB162 /* Build configuration list for PBXProject "Watch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 4344ACA314F2F48B005AB162;
+			productRefGroup = 4344ACAF14F2F48C005AB162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4344ACAD14F2F48C005AB162 /* Watch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4344ACAC14F2F48C005AB162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4344ACBD14F2F48C005AB162 /* InfoPlist.strings in Resources */,
+				4344ACC614F2F48E005AB162 /* MainStoryboard.storyboard in Resources */,
+				43BF628A14FB17EB00A79ED0 /* icon-01.png in Resources */,
+				43820DFE150717AA00F9E727 /* Default-Landscape~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4344ACAA14F2F48C005AB162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4344ACBF14F2F48C005AB162 /* main.m in Sources */,
+				4344ACC314F2F48D005AB162 /* AppDelegate.m in Sources */,
+				4344ACC914F2F48E005AB162 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4344ACBB14F2F48C005AB162 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4344ACBC14F2F48C005AB162 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4344ACC414F2F48E005AB162 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4344ACC514F2F48E005AB162 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4344ACCA14F2F48E005AB162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4344ACCB14F2F48E005AB162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4344ACCD14F2F48E005AB162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watch/Watch-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/x2on-libssh2-for-iOS-0f3ae4e/include\"/**";
+				INFOPLIST_FILE = "Watch/Watch-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/x2on-libssh2-for-iOS-0f3ae4e/lib\"",
+				);
+				OTHER_CFLAGS = "-lz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /Users/izzy/programming/Watch/include;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4344ACCE14F2F48E005AB162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watch/Watch-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/x2on-libssh2-for-iOS-0f3ae4e/include\"/**";
+				INFOPLIST_FILE = "Watch/Watch-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/x2on-libssh2-for-iOS-0f3ae4e/lib\"",
+				);
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /Users/izzy/programming/Watch/include;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4344ACA814F2F48B005AB162 /* Build configuration list for PBXProject "Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4344ACCA14F2F48E005AB162 /* Debug */,
+				4344ACCB14F2F48E005AB162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4344ACCC14F2F48E005AB162 /* Build configuration list for PBXNativeTarget "Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4344ACCD14F2F48E005AB162 /* Debug */,
+				4344ACCE14F2F48E005AB162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4344ACA514F2F48B005AB162 /* Project object */;
+}
